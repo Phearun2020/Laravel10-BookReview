@@ -69,4 +69,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - composer create-project --prefer-dist laravel/laravel book-review
 - php artisan make:model Book -m
 - php artisan make:model Review -m
--
+- php artisan migrate:refresh --seed
+- php artisan make:factory BookFactory --model=Book
+- php artisan make:factory ReviewFactory --model=Review
